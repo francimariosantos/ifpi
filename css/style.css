@@ -24,7 +24,7 @@ nav{
 nav .logo{
     font-size: 35px;
     font-style: italic;
-    color: greenyellow;
+    color: green;
     font-weight: bold;
 }
 nav ul{
@@ -37,7 +37,7 @@ nav ul li a{
     padding: 10px 20px;
     text-decoration: none;
     font-size: 19px;
-    color: greenyellow;
+    color: green;
     border-radius: 30px;
     transition: 0.6s;
 }
