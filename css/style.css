@@ -59,7 +59,9 @@ nav ul {
 }
 nav ul li a {
     background-color: var(cor-principal);
-    color: 
-
-
+    color: #fff;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    transition: all .3s;
 }
