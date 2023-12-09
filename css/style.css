@@ -65,3 +65,7 @@ nav ul li a {
     text-decoration: none;
     transition: all .3s;
 }
+nav ul li a:hover {
+    background-color: var(cor-principal);
+    color: var(cor-principal);
+}
