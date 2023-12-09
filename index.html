@@ -17,13 +17,20 @@
         display: block;
         color: white;
         padding: 8px 16px;
+        text-decoration: none;
+      }
+      .v-menu li a:hover{
+        background-color: black;
+      }
+      .v-menu li.active{
+        background-color: black;
       }
     </style> 
 </head>
 <body> 
   <nav class="v-menu">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li class="active"><a href="#">Home</a></li>
       <li><a href="#">Agenda</a></li>
       <li><a href="#">Contatos</a></li>
       <li><a href="#">Login</a></li>
