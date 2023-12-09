@@ -27,17 +27,22 @@
       }
 
       .h-menu{
-        width: 200px;
+        width: 0px;
       }
       .h-menu ul{
         margin: 16px 0;
         padding: 0;
         background-color: #ccc;
+        overflow: hidden;
+      }
+      .h-menu li{
+        display: inline;
+        float: left;
       }
       .h-menu li a {
         display: block;
         color:white;
-        padding: 8px 16px;
+        padding: 16px 16px;
         text-decoration: none;
       }
       .h-menu li a:hover{
@@ -60,7 +65,7 @@
   </nav>
   <nav class="h-menu">
     <ul>
-      <li><a href="#">Home</a></li>
+      <li class="active"><a href="#">Home</a></li>
       <li><a href="#">Agenda</a></li>
       <li><a href="#">Contatos</a></li>
       <li><a href="#">Login</a></li>
