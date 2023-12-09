@@ -49,7 +49,7 @@ nav ul li a:hover{
     cor-secundaria: rgb(222, 228, 235);
 }
 nav{
-    max-width: 500px;
+    max-width: 350px;
     width: 100%;
     background-color: aquamarine;
 }
