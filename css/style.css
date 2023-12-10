@@ -1,5 +1,5 @@
-body {
-    background-image: linear-gradient(#00000001, #00000063);
+body{
+    background-image: linear-gradient(#00000001, #00000063), url(https://im.ge/i/EhWM8F));
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
